@@ -4,7 +4,7 @@
 ## Installing
 
 ```shell
-$ composer require Tmaic/laravel-translate -v
+$ composer require tmaic/laravel-translate
 ```
 ### Laravel
 
