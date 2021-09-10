@@ -19,22 +19,22 @@
     ],
     "autoload": {
         "psr-4": {
-            "tmaic\\LaravelTranslate\\": "./src"
+            "Tmaic\\LaravelTranslate\\": "./src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "tmaic\\LaravelTranslate\\Test\\": "./tests"
+            "Tmaic\\LaravelTranslate\\Test\\": "./tests"
         }
     },
 
     "extra": {
         "laravel": {
             "providers": [
-                "tmaic\\LaravelTranslate\\TranslateServiceProvider"
+                "Tmaic\\LaravelTranslate\\TranslateServiceProvider"
             ],
             "aliases": {
-                "Translate": "tmaic\\LaravelTranslate\\Facade\\Translate"
+                "Translate": "Tmaic\\LaravelTranslate\\Facade\\Translate"
             }
         }
     },
