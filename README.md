@@ -4,7 +4,7 @@
 ## Installing
 
 ```shell
-$ composer require tmaic/laravel-translate
+composer require tmaic/laravel-translate
 ```
 ### Laravel
 
@@ -22,7 +22,7 @@ $ composer require tmaic/laravel-translate
 And publish the config file: 
 
 ```shell
-$ php artisan vendor:publish --provider=Tmaic\\LaravelTranslate\\TranslateServiceProvider
+php artisan vendor:publish --provider=Tmaic\\LaravelTranslate\\TranslateServiceProvider
 ```
 
 if you want to use facade mode, you can register a facade name what you want to use, for example `translate`: 
