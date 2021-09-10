@@ -17,9 +17,7 @@ return [
     'drivers' => [
         'baidu' => [
             'base_url' => 'http://api.fanyi.baidu.com/api/trans/vip/translate',
-            //App id of the translation api
             'app_id' => '20180611000174972',
-            //secret of the translation api
             'app_key' => 'cEXha7w4elaXO23NJ2Tt',
         ],
 
