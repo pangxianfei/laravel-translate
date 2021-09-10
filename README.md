@@ -1,9 +1,5 @@
-# Translate  for laravel5.*  or  lumen
+# Translate  for laravel8.*  or  lumen
 
----
-[![](https://travis-ci.org/Tmaic/laravel-translate.svg?branch=master)](https://travis-ci.org/Tmaic/laravel-translate) 
-[![](https://img.shields.io/packagist/v/Tmaic/laravel-translate.svg)](https://packagist.org/packages/Tmaic/laravel-translate) 
-[![](https://img.shields.io/packagist/dt/Tmaic/laravel-translate.svg)](https://packagist.org/packages/Tmaic/laravel-translate)
 
 ## Installing
 
@@ -19,7 +15,7 @@ $ composer require Tmaic/laravel-translate -v
 
     'providers' => [
         //...
-        Tmaic\LaravelTranslate\TranslateServiceProvider::class,    //This is default in laravel 5.5
+        Tmaic\LaravelTranslate\TranslateServiceProvider::class,    //This is default in laravel 8.*
     ],
 ```
 
